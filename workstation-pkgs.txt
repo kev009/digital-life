@@ -1,0 +1,64 @@
+# desktop env and apps
+x11/kde4
+x11/xorg
+x11/nvidia-driver
+x11/nvidia-settings
+audio/paprefs
+audio/pavucontrol
+x11-themes/gtk-qt4-engine
+x11-themes/gtk3-oxygen-engine
+x11-themes/gtk-oxygen-engine
+irc/konversation-kde4
+net-p2p/amule
+net-p2p/bitcoin
+audio/clementine-player
+x11-themes/kde-gtk-config
+x11-fonts/webfonts
+x11-fonts/freefonts
+x11-fonts/bitstream-vera
+x11-fonts/gnu-unifont-ttf
+print/cups
+print/cups-pdf
+print/foomatic-db
+print/foomatic-db-engine
+print/foomatic-filters
+
+games/minecraft-client
+
+# sys stuff
+ports-mgmt/poudriere-devel
+editors/vim-lite
+security/openconnect
+net/rsync
+devel/git
+sysutils/grub2-bhyve
+
+# web stuff
+www/firefox
+mail/thunderbird
+www/nspluginwrapper
+www/linux-c6-flashplugin11
+www/opera
+www/opera-linuxplugins
+net-im/skype4
+
+# dev
+devel/android-tools-adb
+databases/postgresql94-client
+databases/postgresql94-server
+databases/pgadmin3
+ports-mgmt/porttools
+textproc/flex
+
+# KTP stuff
+net-im/ktp-accounts-kcm
+net-im/ktp-contact-list
+net-im/ktp-text-ui
+net-im/ktp-auth-handler
+net-im/ktp-kded-integration-module
+net-im/ktp-approver
+net-im/ktp-filetransfer-handler
+net-im/telepathy-logger-qt4
+net-im/telepathy-gabble
+net-im/telepathy-haze
+net-im/plasma-applet-ktp

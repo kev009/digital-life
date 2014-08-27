@@ -1,0 +1,14 @@
+# cd /usr/src
+# svn up
+# make -j `sysctl -n hw.ncpu` buildworld
+# make -j `sysctl -n hw.ncpu` buildkernel  ## Add "KERNCONF=yourkernelname" if you did a custom kernel.
+# make installkernel                       ## Add "KERNCONF=yourkernelname" if you did a custom kernel.
+# reboot                                   ## It's recommended to go to single user mode, but not required.
+# cd /usr/src
+# mergemaster -p                           ## If anything needs to be merged, added or removed.
+# make installworld
+# mergemaster -iUF                         ## You will merge the new config files with your old ones.
+# yes | make delete-old
+# yes | make delete-old-libs
+# cd /usr/obj && chflags -R noschg * && rm -rf *
+# reboot

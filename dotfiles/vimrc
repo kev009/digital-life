@@ -1,0 +1,28 @@
+filetype plugin indent on
+set nocp
+set ru
+set wmnu
+set noet
+set ai
+set ls=2
+set smarttab
+set smartcase
+set smartindent
+set autoindent
+set textwidth=80
+set softtabstop=4
+set shiftwidth=4
+set mouse=a
+set backspace=2
+set nofoldenable
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+syntax on
+colorscheme desert
+
+
+augroup csrc
+  au!
+  autocmd FileType *      set nocindent smartindent
+  autocmd FileType c,cpp  set cindent
+augroup END
