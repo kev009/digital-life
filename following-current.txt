@@ -1,8 +1,8 @@
 # cd /usr/src
 # svn up
 # make -j `sysctl -n hw.ncpu` buildworld
-# make -j `sysctl -n hw.ncpu` buildkernel  ## Add "KERNCONF=yourkernelname" if you did a custom kernel.
-# make installkernel                       ## Add "KERNCONF=yourkernelname" if you did a custom kernel.
+# make -j `sysctl -n hw.ncpu` buildkernel KERNCONF=AURORA
+# make installkernel KERNCONF=AURORA
 # reboot                                   ## It's recommended to go to single user mode, but not required.
 # cd /usr/src
 # mergemaster -p                           ## If anything needs to be merged, added or removed.
