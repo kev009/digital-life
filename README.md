@@ -15,3 +15,5 @@ Better living through BSD
 * etc/rc.conf - rc settings and services
 * etc/sysctl.conf - runtime kernel tunables for a desktop
 * dotfiles/ - .file settings files for ~/
+* kernels/AURORA - GENERIC kernel conf for a -CURRENT desktop daily driver
+  (no witness, etc)
