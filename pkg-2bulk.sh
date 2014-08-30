@@ -1,1 +1,1 @@
-poudriere bulk -f workstation-pkgs.txt -j 11-amd64
+nice poudriere bulk -f workstation-pkgs.txt -j 11-amd64
