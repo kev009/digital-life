@@ -22,6 +22,8 @@ print/cups-pdf
 print/foomatic-db
 print/foomatic-db-engine
 print/foomatic-filters
+print/gutenprint-foomatic
+graphics/poppler-utils
 net/tigervnc
 
 games/minecraft-client
