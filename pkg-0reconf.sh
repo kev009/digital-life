@@ -1,1 +1,1 @@
-poudriere options -j 11-amd64 -f workstation.txt
+poudriere options -j 11-amd64 -f workstation-pkgs.txt
