@@ -35,6 +35,7 @@ security/openconnect
 net/rsync
 devel/git
 sysutils/grub2-bhyve
+sysutils/tmux
 
 # web stuff
 www/firefox
@@ -51,6 +52,7 @@ databases/postgresql94-client
 databases/postgresql94-server
 databases/pgadmin3
 ports-mgmt/porttools
+devel/ipython
 textproc/flex
 
 # KTP stuff
