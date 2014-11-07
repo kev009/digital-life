@@ -44,7 +44,6 @@ www/nspluginwrapper
 www/linux-c6-flashplugin11
 www/opera
 www/opera-linuxplugins
-net-im/skype4
 
 # dev
 devel/android-tools-adb
