@@ -24,6 +24,7 @@ print/foomatic-db-engine
 print/foomatic-filters
 print/gutenprint-foomatic
 graphics/poppler-utils
+graphics/mesa-demos
 net/tigervnc
 
 games/minecraft-client
