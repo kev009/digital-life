@@ -26,6 +26,7 @@ print/gutenprint-foomatic
 graphics/poppler-utils
 graphics/mesa-demos
 net/tigervnc
+shells/zsh
 
 games/minecraft-client
 
