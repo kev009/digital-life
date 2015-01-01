@@ -30,6 +30,7 @@ deskutils/kdeconnect
 net/tigervnc
 shells/zsh
 security/zenmap
+sysutils/k3b-kde4
 
 games/minecraft-client
 
