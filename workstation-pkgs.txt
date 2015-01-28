@@ -31,6 +31,7 @@ net/tigervnc
 shells/zsh
 security/zenmap
 sysutils/k3b-kde4
+www/chromium
 
 games/minecraft-client
 
