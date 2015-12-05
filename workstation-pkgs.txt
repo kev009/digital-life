@@ -32,8 +32,10 @@ shells/zsh
 security/zenmap
 sysutils/k3b-kde4
 www/chromium
+security/keepassx2
 
 games/minecraft-client
+games/openra
 
 # sys stuff
 ports-mgmt/poudriere-devel
@@ -59,7 +61,15 @@ databases/postgresql94-server
 databases/pgadmin3
 ports-mgmt/porttools
 devel/ipython
+devel/pep8
 textproc/flex
+devel/arcanist
+devel/maven3
+textproc/kdiff3
+
+# embedded stuff
+devel/uboot-mkimage
+security/binwalk
 
 # KTP stuff
 net-im/ktp-accounts-kcm
@@ -73,3 +83,5 @@ net-im/telepathy-logger-qt4
 net-im/telepathy-gabble
 net-im/telepathy-haze
 net-im/plasma-applet-ktp
+
+devel/argp-standalone
