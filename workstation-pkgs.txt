@@ -51,8 +51,6 @@ www/firefox
 mail/thunderbird
 www/nspluginwrapper
 www/linux-c6-flashplugin11
-www/opera
-www/opera-linuxplugins
 
 # dev
 devel/android-tools-adb
