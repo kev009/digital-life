@@ -33,6 +33,10 @@ security/zenmap
 sysutils/k3b-kde4
 www/chromium
 security/keepassx2
+accessibility/redshift
+
+audio/linux-c6-pulseaudio-libs
+net-im/skype4
 
 games/minecraft-client
 games/openra
@@ -45,6 +49,8 @@ net/rsync
 devel/git
 sysutils/grub2-bhyve
 sysutils/tmux
+archivers/unrar
+x11/x3270
 
 # web stuff
 www/firefox
@@ -54,8 +60,8 @@ www/linux-c6-flashplugin11
 
 # dev
 devel/android-tools-adb
-databases/postgresql94-client
-databases/postgresql94-server
+databases/postgresql95-client
+databases/postgresql95-server
 databases/pgadmin3
 ports-mgmt/porttools
 devel/ipython
@@ -64,10 +70,12 @@ textproc/flex
 devel/arcanist
 devel/maven3
 textproc/kdiff3
+java/intellij
 
 # embedded stuff
 devel/uboot-mkimage
 security/binwalk
+security/john
 
 # KTP stuff
 net-im/ktp-accounts-kcm
