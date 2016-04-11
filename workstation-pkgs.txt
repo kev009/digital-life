@@ -8,6 +8,7 @@ audio/pavucontrol
 x11-themes/gtk-qt4-engine
 x11-themes/gtk3-oxygen-engine
 x11-themes/gtk-oxygen-engine
+x11-themes/qtcurve
 irc/konversation-kde4
 net-p2p/amule
 net-p2p/ktorrent
@@ -71,6 +72,7 @@ devel/arcanist
 devel/maven3
 textproc/kdiff3
 java/intellij
+java/visualvm
 
 # embedded stuff
 devel/uboot-mkimage
