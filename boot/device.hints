@@ -1,4 +1,4 @@
-# $FreeBSD: head/sys/amd64/conf/GENERIC.hints 265329 2014-05-04 16:38:21Z nwhitehorn $
+# $FreeBSD: head/sys/amd64/conf/GENERIC.hints 297243 2016-03-24 20:52:35Z mav $
 hint.fdc.0.at="isa"
 hint.fdc.0.port="0x3F0"
 hint.fdc.0.irq="6"
@@ -30,7 +30,6 @@ hint.atrtc.0.irq="8"
 hint.attimer.0.at="isa"
 hint.attimer.0.port="0x40"
 hint.attimer.0.irq="0"
-hint.wbwd.0.at="isa"
 hint.acpi_throttle.0.disabled="1"
 hint.p4tcc.0.disabled="1"
 
