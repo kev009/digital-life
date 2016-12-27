@@ -5,7 +5,6 @@ x11/nvidia-driver
 x11/nvidia-settings
 audio/paprefs
 audio/pavucontrol
-x11-themes/gtk-qt4-engine
 x11-themes/gtk3-oxygen-engine
 x11-themes/gtk-oxygen-engine
 x11-themes/qtcurve
@@ -43,6 +42,7 @@ games/minecraft-client
 games/openra
 
 # sys stuff
+sysutils/devcpu-data
 ports-mgmt/poudriere-devel
 editors/vim-lite
 security/openconnect
@@ -57,7 +57,8 @@ x11/x3270
 www/firefox
 mail/thunderbird
 www/nspluginwrapper
-www/linux-c6-flashplugin11
+www/flashplayer
+ftp/wget
 
 # dev
 devel/android-tools-adb
@@ -73,11 +74,15 @@ devel/maven3
 textproc/kdiff3
 java/intellij
 java/visualvm
+lang/racket
+devel/gdb
 
 # embedded stuff
+archivers/lzma
 devel/uboot-mkimage
 security/binwalk
 security/john
+security/fakeroot
 
 # KTP stuff
 net-im/ktp-accounts-kcm
