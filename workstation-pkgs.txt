@@ -35,14 +35,12 @@ www/chromium
 security/keepassx2
 accessibility/redshift
 
-audio/linux-c6-pulseaudio-libs
-net-im/skype4
-
 games/minecraft-client
 games/openra
 
 # sys stuff
 sysutils/devcpu-data
+sysutils/smartmontools
 ports-mgmt/poudriere-devel
 editors/vim-lite
 security/openconnect
@@ -76,6 +74,7 @@ java/intellij
 java/visualvm
 lang/racket
 devel/gdb
+devel/radare2
 
 # embedded stuff
 archivers/lzma
