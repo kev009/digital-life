@@ -1,5 +1,5 @@
 # desktop env and apps
-x11/kde
+x11/kde5
 x11/sddm
 x11/xorg
 x11/nvidia-driver
@@ -17,6 +17,7 @@ x11-fonts/webfonts
 x11-fonts/freefonts
 x11-fonts/bitstream-vera
 x11-fonts/gnu-unifont-ttf
+x11-fonts/google-fonts
 print/cups
 print/cups-pdf
 print/gutenprint
@@ -64,8 +65,8 @@ ftp/wget
 devel/cscope
 devel/android-tools-adb
 devel/android-tools-fastboot
-databases/postgresql96-client
-databases/postgresql96-server
+databases/postgresql10-client
+databases/postgresql10-server
 databases/pgadmin3
 databases/timescaledb
 ports-mgmt/porttools
@@ -79,6 +80,7 @@ java/intellij
 java/visualvm
 devel/gdb
 devel/radare2
+x11/radare-cutter
 devel/hg-git
 sysutils/intel-pcm
 
