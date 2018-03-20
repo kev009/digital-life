@@ -27,6 +27,7 @@ net/tigervnc
 shells/zsh
 security/zenmap
 sysutils/k3b
+sysutils/qdirstat
 www/chromium
 security/keepassxc
 accessibility/redshift
@@ -46,7 +47,7 @@ games/openra
 sysutils/devcpu-data
 sysutils/smartmontools
 ports-mgmt/poudriere-devel
-editors/vim-lite
+editors/vim-console
 security/openconnect
 net/rsync
 devel/git
