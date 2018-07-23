@@ -1,0 +1,13 @@
+# Kernel configuration for Raptor Talos II POWER9
+
+include		GENERIC64-NODEBUG
+ident		ECLIPZ
+
+options		NVME_USE_NVD=0
+options		MAXPHYS=(1024*1024)
+#options		NUMA
+makeoptions	WITH_EXTRA_TCP_STACKS=1
+options		TCPHPTS
+#options		CAM_IOSCHED_DYNAMIC
+
+device		ipmi
