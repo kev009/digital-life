@@ -36,7 +36,6 @@ x11-themes/plasma5-kde-gtk-config
 x11-themes/plasma5-breeze-gtk
 x11-themes/plasma5-breeze-kde4
 x11-themes/plasma5-plasma-workspace-wallpapers
-x11-themes/plasma5-wallpapers-freebsd
 x11/plasma5-kscreen
 
 multimedia/kdenlive
