@@ -3,4 +3,3 @@ ident		AURORA
 
 options		NVME_USE_NVD=0
 options		MAXPHYS=(1024*1024)
-options		NUMA
