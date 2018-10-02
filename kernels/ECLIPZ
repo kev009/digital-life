@@ -1,5 +1,4 @@
 # Kernel configuration for Raptor Talos II POWER9
-
 include		GENERIC64-NODEBUG
 ident		ECLIPZ
 

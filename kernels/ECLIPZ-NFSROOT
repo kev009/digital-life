@@ -1,0 +1,6 @@
+# Kernel configuration for Raptor Talos II POWER9
+include		ECLIPZ
+ident		ECLIPZ-NFSROOT
+
+options		BOOTP
+options		BOOTP_NFSROOT
