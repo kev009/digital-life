@@ -43,14 +43,18 @@ games/minecraft-client
 games/openra
 
 # sys stuff
+devel/hwloc
+sysutils/pciutils
 sysutils/devcpu-data
 sysutils/smartmontools
+sysutils/turbostat
 ports-mgmt/poudriere-devel
 editors/vim-console
 security/openconnect
 net/rsync
 devel/git
 sysutils/grub2-bhyve
+sysutils/vm-bhyve
 sysutils/tmux
 archivers/unrar
 x11/x3270
@@ -76,13 +80,17 @@ textproc/flex
 devel/arcanist
 devel/maven3
 textproc/kdiff3
-java/intellij
+java/intellij-ultimate
 java/visualvm
 devel/gdb
 devel/radare2
 x11/radare-cutter
 devel/hg-git
 sysutils/intel-pcm
+security/pinentry-qt5
+www/npm
+
+security/vuxml
 
 # embedded stuff
 archivers/lzma
@@ -104,3 +112,7 @@ net-im/telepathy-gabble
 net-im/telepathy-haze
 
 devel/argp-standalone
+
+# stackable
+lang/go
+sysutils/nomad
