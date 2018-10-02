@@ -1,1 +1,1 @@
-nice poudriere jail -u -j 11-amd64
+nice poudriere jail -u -j current
