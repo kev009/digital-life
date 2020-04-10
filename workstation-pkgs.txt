@@ -10,6 +10,7 @@ irc/konversation
 net-p2p/amule
 net-p2p/ktorrent
 net-p2p/bitcoin
+net-p2p/parity-ethereum
 audio/musicpd
 audio/cantata
 audio/clementine-player
@@ -23,18 +24,15 @@ print/cups-pdf
 print/gutenprint
 graphics/poppler-utils
 graphics/mesa-demos
-net/tigervnc
 shells/zsh
-security/zenmap
+#security/zenmap
 sysutils/k3b
 sysutils/qdirstat
 www/chromium
 security/keepassxc
-accessibility/redshift
 multimedia/vlc
 x11-themes/plasma5-kde-gtk-config
 x11-themes/plasma5-breeze-gtk
-x11-themes/plasma5-breeze-kde4
 x11-themes/plasma5-plasma-workspace-wallpapers
 x11/plasma5-kscreen
 
@@ -58,7 +56,8 @@ sysutils/vm-bhyve
 sysutils/tmux
 archivers/unrar
 x11/x3270
-net/wireshark-qt5
+net/wireshark
+x11-fonts/3270font
 
 # web stuff
 www/firefox
@@ -74,10 +73,10 @@ databases/postgresql10-server
 databases/pgadmin3
 databases/timescaledb
 ports-mgmt/porttools
+lang/python3
 devel/ipython
 devel/pep8
 textproc/flex
-devel/arcanist
 devel/maven3
 textproc/kdiff3
 java/intellij-ultimate
@@ -94,7 +93,7 @@ security/vuxml
 
 # embedded stuff
 archivers/lzma
-devel/uboot-mkimage
+sysutils/u-boot-tools
 security/binwalk
 security/john
 security/fakeroot
@@ -107,12 +106,22 @@ net-im/ktp-auth-handler
 net-im/ktp-kded-module
 net-im/ktp-approver
 net-im/ktp-filetransfer-handler
-net-im/telepathy-logger-qt4
 net-im/telepathy-gabble
 net-im/telepathy-haze
 
 devel/argp-standalone
 
+# POWER9
+devel/powerpc64-xtoolchain-gcc
+emulators/linux-power9-functional-sim
+emulators/qemu-powernv
+
 # stackable
 lang/go
 sysutils/nomad
+security/openvpn
+
+#omr
+devel/dwarfdump
+devel/libdwarf
+devel/libelf
