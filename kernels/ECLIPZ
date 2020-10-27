@@ -1,11 +1,13 @@
 # Kernel configuration for Raptor Talos II POWER9
-include		GENERIC64-NODEBUG
+include		GENERIC64 #-NODEBUG
 ident		ECLIPZ
 
 options		MAXPHYS=(1024*1024)
-#options		NUMA
-makeoptions	WITH_EXTRA_TCP_STACKS=1
-options		TCPHPTS
-#options		CAM_IOSCHED_DYNAMIC
+
+#makeoptions	WITH_EXTRA_TCP_STACKS=1
+#options		TCPHPTS
+
+options		BREAK_TO_DEBUGGER
+options		ALT_BREAK_TO_DEBUGGER
 
 device		ipmi

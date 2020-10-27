@@ -1,10 +1,6 @@
-# $FreeBSD: head/etc/profile 208116 2010-05-15 17:49:56Z jilles $
+# $FreeBSD: head/bin/sh/profile 343231 2019-01-20 22:08:49Z trasz $
 #
 # System-wide .profile file for sh(1).
-#
-# Uncomment this to give you the default 4.2 behavior, where disk
-# information is shown in K-Blocks
-# BLOCKSIZE=K; export BLOCKSIZE
 #
 # For the setting of languages and character sets please see
 # login.conf(5) and in particular the charset and lang options.
